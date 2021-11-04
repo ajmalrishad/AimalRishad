@@ -24,6 +24,7 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
   <!-- Ajax lib  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   
 
@@ -343,8 +344,7 @@
                   </div>
                   <div>
                        <form  id="submit-form" action="" role="form" class="contactform">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div id="errormessage"></div>
+                      
                       <div class="row">
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
@@ -441,13 +441,12 @@
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <script src="lib/typed/typed.min.js"></script>
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+ 
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
           
-          
-          <script>
+  <script>
     $("#submit-form").submit((e)=>{
         e.preventDefault()
         $.ajax({
