@@ -1,5 +1,4 @@
 # AimalRishad
-Portfolio website 
 
 I'm Ajmal Rishad, a seasoned software engineer with over three years of hands-on experience. I'm passionate about leveraging technology to drive innovation and solve complex problems. With a strong foundation in technical knowledge and a knack for creative problem-solving
 
